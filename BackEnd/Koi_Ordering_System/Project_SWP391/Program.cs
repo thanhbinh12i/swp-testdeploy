@@ -103,7 +103,7 @@ namespace Project_SWP391
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowOrigin", policy =>
-                    policy.WithOrigins("http://localhost:3000") // address of frontend
+                    policy.WithOrigins("https://koideptrai.vercel.app") // address of frontend
                           .AllowAnyMethod()
                           .AllowAnyHeader());
             });
